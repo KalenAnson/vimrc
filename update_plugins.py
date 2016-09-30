@@ -11,7 +11,6 @@ PLUGINS = """
 ack.vim https://github.com/mileszs/ack.vim
 ag.vim https://github.com/rking/ag.vim
 bufexplorer https://github.com/corntrace/bufexplorer
-ctrlp.vim https://github.com/kien/ctrlp.vim
 mayansmoke https://github.com/vim-scripts/mayansmoke
 nerdtree https://github.com/scrooloose/nerdtree
 nginx.vim https://github.com/vim-scripts/nginx.vim

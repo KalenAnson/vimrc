@@ -139,6 +139,9 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Show line numbers and relative numbers
+set relativenumber
+" set number
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
@@ -222,6 +225,10 @@ map <c-space> ?
 " Disable highlight when <leader><cr> is pressed
 map <silent> <leader><cr> :noh<cr>
 
+" Stop some easy mistakes
+nnoremap J <Nop>
+nnoremap K <Nop>
+
 " Smart way to move between windows
 map <C-j> <C-W>j<C-W>_
 map <C-k> <C-W>k<C-W>_
@@ -237,6 +244,11 @@ map <leader>bd :Bclose<cr>
 
 " Close all the buffers
 map <leader>ba :bufdo bd<cr>
+
+" Easier tab navigation
+
+nnoremap H gT
+nnoremap L gt
 
 " Useful mappings for managing tabs
 map <leader>tn :tabnew<cr>
@@ -312,7 +324,14 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
+" Save and exit from insert mode
+inoremap :w <Esc>:w<CR>
 
+" Bail out of insert mode faster
+inoremap jj <Esc>j
+inoremap hh <Esc>h
+inoremap kk <Esc>k
+inoremap ll <Esc>l
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ag searching and cope displaying
 "    requires ag.vim - it's much better than vimgrep/grep

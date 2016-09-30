@@ -13,6 +13,11 @@ call pathogen#infect('~/.vim_runtime/sources_non_forked/{}')
 call pathogen#helptags()
 
 """"""""""""""""""""""""""""""
+" Colors
+""""""""""""""""""""""""""""""
+colorscheme monokai
+
+""""""""""""""""""""""""""""""
 " => bufExplorer plugin
 """"""""""""""""""""""""""""""
 let g:bufExplorerDefaultHelp=0
@@ -37,19 +42,6 @@ if has("win16") || has("win32")
 else
     let g:yankring_history_dir = '~/.vim_runtime/temp_dirs/'
 endif
-
-
-""""""""""""""""""""""""""""""
-" => CTRL-P
-""""""""""""""""""""""""""""""
-"let g:ctrlp_working_path_mode = 0
-
-"let g:ctrlp_map = '<c-m>'
-"map <leader>j :CtrlP<cr>
-"map <c-b> :CtrlPBuffer<cr>
-
-"let g:ctrlp_max_height = 20
-"let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
 
 
 """"""""""""""""""""""""""""""
