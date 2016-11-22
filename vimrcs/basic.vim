@@ -104,7 +104,7 @@ set whichwrap+=<,>,h,l
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+  set mouse=c
 endif
 
 " Ignore case when searching
@@ -331,7 +331,7 @@ inoremap :w <Esc>:w<CR>
 inoremap jj <Esc>j
 inoremap hh <Esc>h
 inoremap kk <Esc>k
-inoremap ll <Esc>l
+inoremap lll <Esc>l
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ag searching and cope displaying
 "    requires ag.vim - it's much better than vimgrep/grep
