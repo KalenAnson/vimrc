@@ -235,6 +235,9 @@ map <C-k> <C-W>k<C-W>_
 map <C-h> <C-W>h<C-W>_
 map <C-l> <C-W>l<C-W>_
 
+" Forward delete in insert mode
+inoremap <C-d> <Del>
+
 " Other Things
 " Unhighlight with CR
 nnoremap <CR> :noh<CR>
