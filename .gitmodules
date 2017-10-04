@@ -1,0 +1,6 @@
+[submodule "sources_non_forked/carbonized"]
+	url = https://github.com/nightsense/carbonized
+[submodule "sources_non_forked/nerdtree-git-plugin"]
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+[submodule "sources_non_forked/vim-airline-themes"]
+	url = https://github.com/vim-airline/vim-airline
