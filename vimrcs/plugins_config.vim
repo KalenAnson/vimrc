@@ -78,3 +78,9 @@ let g:syntastic_javascript_checkers = ['jshint']
 " => GitGutter
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>t :GitGutterToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Indent Guides
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:indent_guides_enable_on_vim_startup = 1
+
