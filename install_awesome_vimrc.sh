@@ -12,6 +12,4 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
-git submodule init
-
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
