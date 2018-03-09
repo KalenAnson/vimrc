@@ -84,3 +84,7 @@ map <leader>t :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:indent_guides_enable_on_vim_startup = 1
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => JSX Highlighting in all js files
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:jsx_ext_required = 0
